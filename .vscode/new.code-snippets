@@ -1,0 +1,25 @@
+{
+    "NewFile": {
+        "scope": "",
+        "prefix": "#new",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "",
+            "int main() {",
+            "",
+            "\t// freopen(\"$TM_FILENAME_BASE.in\", \"r\", stdin);",
+            "\t// freopen(\"$TM_FILENAME_BASE.out\", \"w\", stdout);",
+            "",
+            "\t$0",
+            "",
+            "\t// fclose(stdin);",
+            "\t// fclose(stdout);",
+            "",
+            "\tsystem(\"pause\");",
+            "",
+            "\treturn 0;",
+            "}"
+        ]
+    }
+}
