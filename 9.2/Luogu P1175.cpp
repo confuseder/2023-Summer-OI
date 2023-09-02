@@ -55,7 +55,7 @@ int calc(int a, int b, char op) {
     }
 }
 
-vector<string> parserA(string s) {
+vector<string> parser(string s) {
     stack<char> num;
     stack<char> op;
     vector<string> res;
@@ -154,7 +154,7 @@ int main() {
 
     cin >> str;
 
-    cout << solve(parserA(str)) << endl;
+    cout << solve(parser(str)) << endl;
 
     // fclose(stdin);
     // fclose(stdout);
