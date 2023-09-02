@@ -11,8 +11,7 @@
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "-std=c++14",
-        "-O2"
+        "-std=c++14"
       ],
       "command": "C:\\MinGW64\\bin\\g++.exe",
       "group": {
@@ -37,6 +36,7 @@
       "dependsOn": "single file build",
       "label": "run and pause",
       "options": {
+        "cwd": "${fileDirname}",
         "env": {
           "Path": "C:\\MinGW64\\bin;${env:Path}"
         }
