@@ -6,7 +6,15 @@
             "#include <bits/stdc++.h>",
             "using namespace std;",
             "",
+<<<<<<< HEAD
             "$1",
+=======
+<<<<<<< HEAD
+            "$1",
+=======
+            "$0",
+>>>>>>> 96e46b2afe32425243a261a4aaaff2e5841c1d59
+>>>>>>> 10911189e5ee7a7665da4ac8ddbcd8a65069cf5b
             "",
             "int main() {",
             "",
