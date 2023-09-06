@@ -6,14 +6,18 @@
             "#include <bits/stdc++.h>",
             "using namespace std;",
             "",
+<<<<<<< HEAD
             "$1",
+=======
+            "$0",
+>>>>>>> 96e46b2afe32425243a261a4aaaff2e5841c1d59
             "",
             "int main() {",
             "",
             "\t// freopen(\"$TM_FILENAME_BASE.in\", \"r\", stdin);",
             "\t// freopen(\"$TM_FILENAME_BASE.out\", \"w\", stdout);",
             "",
-            "\t$0",
+            "\t$1",
             "",
             "\t// fclose(stdin);",
             "\t// fclose(stdout);",
