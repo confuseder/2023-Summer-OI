@@ -11,7 +11,8 @@
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "-std=c++14"
+        "-std=c++14",
+        "-Wl,--stack=268435456"
       ],
       "command": "C:\\MinGW64\\bin\\g++.exe",
       "group": {
